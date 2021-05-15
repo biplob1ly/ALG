@@ -1,0 +1,47 @@
+03/21/2021 18:37:21 - Namespace(adam_epsilon=1e-08, batch_size=32, data_dir='./data', dataset_name='atis', do_eval=True, do_train=True, dropout=0.1, embed_size=128, grad_accumulate_steps=1, hidden_size=256, ignore_index=0, intent_label_file='intent_label.txt', logging_steps=200, lr=[5e-05], max_norm=1.0, max_seqLen=50, max_steps=0, model_dir='./models', model_type='RNN', num_epochs=[20], random_seed=1234, result_dir='./results', save_steps=200, slot_label_file='slot_label.txt', slot_loss_coef=1.0, slot_pad_label='PAD', use_crf=False, warm_steps=0, weight_decay=0.0, word_vocab_file='word_vocab.txt')
+
+03/21/2021 18:37:21 - Size of vocabulary including PAD, UNK:
+Source text: 614 (Including PAD, UNK, <sos>, <eos>)
+Target slot: 124 (Including PAD, UNK, <sos>, <eos>)
+Intent: 22 (Including UNK)
+
+03/21/2021 18:37:21 - Size of vocabulary including PAD, UNK:
+Source text: 614 (Including PAD, UNK, <sos>, <eos>)
+Target slot: 124 (Including PAD, UNK, <sos>, <eos>)
+Intent: 22 (Including UNK)
+
+03/21/2021 18:37:21 - Size of vocabulary including PAD, UNK:
+Source text: 614 (Including PAD, UNK, <sos>, <eos>)
+Target slot: 124 (Including PAD, UNK, <sos>, <eos>)
+Intent: 22 (Including UNK)
+
+03/21/2021 18:37:21 - Size of dataset:
+Train: 4448
+Dev: 480
+Test: 864
+
+03/21/2021 18:37:21 - Training with: HyperParams(lr=5e-05, num_epochs=20)
+03/21/2021 18:37:21 - Training starting
+03/21/2021 18:37:21 - Total trainable params: 2641555
+03/21/2021 18:56:14 - Training finished.
+
+03/21/2021 18:56:14 - Successfully saved model to ./models !
+
+03/21/2021 18:56:14 - Evaluating ...
+03/21/2021 18:56:58 - eval_loss: 1.0343068838119507
+03/21/2021 18:56:58 - intent_accuracy: 0.9041666666666667
+03/21/2021 18:56:58 - slot_precision: 0.7443729903536977
+03/21/2021 18:56:58 - slot_recall: 0.5653235653235653
+03/21/2021 18:56:58 - slot_f1: 0.6426092990978487
+03/21/2021 18:56:58 - semantic_frame_accuracy: 0.0
+03/21/2021 18:56:58 - 
+
+03/21/2021 18:56:58 - Reloading model ...
+
+03/21/2021 18:56:58 - Evaluating ...
+03/21/2021 18:58:59 - eval_loss: 1.3098533153533936
+03/21/2021 18:58:59 - intent_accuracy: 0.8634259259259259
+03/21/2021 18:58:59 - slot_precision: 0.6895200783545543
+03/21/2021 18:58:59 - slot_recall: 0.514431859700402
+03/21/2021 18:58:59 - slot_f1: 0.5892446118434819
+03/21/2021 18:58:59 - semantic_frame_accuracy: 0.0

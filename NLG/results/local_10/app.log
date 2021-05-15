@@ -1,0 +1,41 @@
+04/20/2021 18:23:21 - Namespace(adam_epsilon=1e-08, batch_size=32, data_dir='./data', dataset_name='e2e', do_eval=True, do_train=True, embed_size=128, hidden_size=256, lr=[0.005], max_mr_count=10, max_trg_len=50, model_dir='./models', model_type='RNN', num_epochs=[10], random_seed=1234, result_dir='./results', warm_steps=0, weight_decay=0.0)
+
+04/20/2021 18:23:22 - Max mr count: 8
+04/20/2021 18:23:32 - Size of vocabulary including UNK:
+Dialog Acts: 2
+Slots: 9
+Values: 28
+Reference Tokens: 2394
+
+04/20/2021 18:23:47 - Size of dataset:
+Train: 42048
+Dev: 4672
+Test: 4672
+
+04/20/2021 18:23:50 - Training with: HyperParams(lr=0.005, num_epochs=10)
+04/20/2021 18:23:50 - Training starting
+04/20/2021 18:23:50 - Total trainable params: 4322650
+04/20/2021 18:31:43 - Successfully saved model to ./models !
+
+04/20/2021 18:39:34 - Successfully saved model to ./models !
+
+04/20/2021 18:47:23 - Successfully saved model to ./models !
+
+04/20/2021 18:55:13 - Successfully saved model to ./models !
+
+04/20/2021 19:10:51 - Successfully saved model to ./models !
+
+04/20/2021 19:34:17 - Successfully saved model to ./models !
+
+04/20/2021 19:42:06 - Training finished.
+
+04/20/2021 19:42:06 - 
+
+04/20/2021 19:42:06 - Reloading model ...
+
+04/20/2021 19:46:25 - loading Word2VecKeyedVectors object from /home/biplob/.cache/nlgeval/glove.6B.300d.model.bin
+04/20/2021 19:46:26 - loading vectors from /home/biplob/.cache/nlgeval/glove.6B.300d.model.bin.vectors.npy with mmap=r
+04/20/2021 19:46:26 - setting ignored attribute vectors_norm to None
+04/20/2021 19:46:26 - loaded /home/biplob/.cache/nlgeval/glove.6B.300d.model.bin
+04/20/2021 19:51:03 - nist_nltk: 4.49702355677293
+04/20/2021 19:51:03 - nlgeval: {'Bleu_1': 0.6424078379517913, 'Bleu_2': 0.468828895457633, 'Bleu_3': 0.3493829333555094, 'Bleu_4': 0.26358320424922843, 'METEOR': 0.3524385070005995, 'ROUGE_L': 0.47845110085354114, 'CIDEr': 1.3736581586940952, 'SkipThoughtCS': 0.7335035, 'EmbeddingAverageCosineSimilarity': 0.950193, 'EmbeddingAverageCosineSimilairty': 0.950193, 'VectorExtremaCosineSimilarity': 0.716229, 'GreedyMatchingScore': 0.874031}
